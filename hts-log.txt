@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 20 Sep 2024 00:21:58 at https://davis-html.netlify.app/index2 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://davis-html.netlify.app/index2 -O1 "C:\Project\https___davis-html.netlify.app_index2" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:22:54	Error: 	"Not Found" (404) at link https://davis-html.netlify.app/assets/img/vimeo-play.png (from https://davis-html.netlify.app/assets/css/lightgallery.min.css)
+00:22:54	Error: 	"Not Found" (404) at link https://davis-html.netlify.app/assets/img/video-play.png (from https://davis-html.netlify.app/assets/css/lightgallery.min.css)
+00:22:54	Error: 	"Not Found" (404) at link https://davis-html.netlify.app/assets/img/youtube-play.png (from https://davis-html.netlify.app/assets/css/lightgallery.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 2 seconds : 84 links scanned, 80 files written (6532366 bytes overall) [4271923 bytes received at 68901 bytes/sec], 3678344 bytes transferred using HTTP compression in 39 files, ratio 37%
+(3 errors, 0 warnings, 0 messages)
