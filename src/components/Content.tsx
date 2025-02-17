@@ -26,7 +26,9 @@ const Content = () => {
                     {/* Image Section (Now on Top in Mobile View) */}
                     <div className="md:w-1/2 flex justify-center relative md:-top-10">
                         <Image
-                            src="developer2.png"
+                            width={3000}
+                            height={3000}
+                            src="/developer2.png"
                             alt="Profile"
                             className="w-80 md:w-96 h-auto rounded-2xl border-2 border-teal-500 shadow-lg"
                         />
