@@ -1,5 +1,7 @@
 // src/components/Content.tsx
 import React from 'react';
+import Image from 'next/image';
+
 
 const Content = () => {
     return (
@@ -23,7 +25,7 @@ const Content = () => {
                 <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
                     {/* Image Section (Now on Top in Mobile View) */}
                     <div className="md:w-1/2 flex justify-center relative md:-top-10">
-                        <img
+                        <Image
                             src="developer2.png"
                             alt="Profile"
                             className="w-80 md:w-96 h-auto rounded-2xl border-2 border-teal-500 shadow-lg"
