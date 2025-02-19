@@ -1,10 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   reactStrictMode: true,
+  trailingSlash: false,
   eslint: {
-    ignoreDuringBuilds: true, // Ignore ESLint checks during build
+    ignoreDuringBuilds: true, 
   },
 };
 
